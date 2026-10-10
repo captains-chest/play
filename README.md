@@ -8,4 +8,4 @@ files, listing the games. Add a game in `src/app/games/constants.ts`.
     pnpm dlx wrangler@4 pages deploy dist/site/browser --project-name play --branch main
 
 Each game is its own Cloudflare Pages project on its own subdomain, e.g. Minesweeper (project `minesweeper`) at
-https://minesweeper.play.captains-chest.com, built from captainDuckay/minesweeper's `dist/minesweeper/browser`.
+https://minesweeper.play.captains-chest.com, built from captains-chest/minesweeper's `dist/minesweeper/browser`.

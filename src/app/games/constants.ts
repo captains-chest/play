@@ -7,6 +7,6 @@ export const games: readonly Game[] = [
     // From the game's CONTEXT.md.
     description: "Single-player minefield clearing: a live run on a board, plus the player's lasting record and preferences.",
     playUrl: 'https://minesweeper.play.captains-chest.com',
-    sourceUrl: 'https://github.com/captainDuckay/minesweeper',
+    sourceUrl: 'https://github.com/captains-chest/minesweeper',
   },
 ];
