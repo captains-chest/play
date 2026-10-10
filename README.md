@@ -1,11 +1,7 @@
-# play.captains-chest.com
+# Captain's Chest Playground (moved)
 
-The Captain's Chest Playground: an Angular (standalone, zoneless, strict TypeScript) page prerendered to static
-files, listing the games. Add a game in `src/app/games/constants.ts`.
+The Playground now lives at **https://captains-chest.com/play**, built from
+[captains-chest/site](https://github.com/captains-chest/site). `play.captains-chest.com` redirects there.
 
-    pnpm install --frozen-lockfile
-    pnpm build   # output: dist/site/browser
-    pnpm dlx wrangler@4 pages deploy dist/site/browser --project-name play --branch main
-
-Each game is its own Cloudflare Pages project on its own subdomain, e.g. Minesweeper (project `minesweeper`) at
-https://minesweeper.play.captains-chest.com, built from captains-chest/minesweeper's `dist/minesweeper/browser`.
+This repository is archived and kept for history. Minesweeper stays in
+[captains-chest/minesweeper](https://github.com/captains-chest/minesweeper) at https://minesweeper.play.captains-chest.com.
