@@ -1,0 +1,6 @@
+<h2>{{ game().name }}</h2>
+<p>{{ game().description }}</p>
+<div class="links">
+  <a class="btn primary" [href]="game().playUrl">Play {{ game().name }}</a>
+  <a class="btn" [href]="game().sourceUrl">GitHub</a>
+</div>

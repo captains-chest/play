@@ -1,0 +1,24 @@
+<a class="skip" href="#games">Skip to games</a>
+<main>
+<nav class="topnav" aria-label="Captain's Chest">
+<ul>
+<li><a href="https://captains-chest.com">Projects</a></li>
+<li><a href="https://play.captains-chest.com" aria-current="page">Playground</a></li>
+<li><a href="https://school.captains-chest.com">School</a></li>
+</ul>
+</nav>
+<header>
+<p class="eyebrow">Captain's Chest · Playground</p>
+<h1>The Playground</h1>
+<p class="lead">Browser games by Nicki Skipper Otte.</p>
+</header>
+<section id="games" aria-labelledby="gh">
+<h2 id="gh" class="eyebrow">Games</h2>
+<ul class="grid">
+@for (game of games; track game.slug) {
+<li play-game-card [game]="game"></li>
+}
+</ul>
+</section>
+<footer>© Captain's Chest · <a href="https://github.com/captains-chest/play">github.com/captains-chest/play</a></footer>
+</main>
